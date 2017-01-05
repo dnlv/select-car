@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+/* Global resets */
+
+html {
+}
+
+body {
+	font-size: 75%;	
+	font-family: Arial, Helvetica, sans-serif;	
+	padding: 0px;
+	position: relative;
+}
+
+a {
+}
+	a img {
+		border: 0px;
+	}
+
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+}
+
+input, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+
+p {
+	margin: 0px 0px 1em 0px;
+	padding: 0px;
+}
+
+/* - Global resets */
+
+
+/* + Common classes */
+
+.error {
+	color: #ff0000;	
+}
+
+.no-margin {
+	margin: 0px;
+}
+
+.no-padding {
+	padding: 0px;	
+}
+
+.no-float {
+	overflow: hidden;	
+}
+
+.pseudo-link {
+	border-bottom: 1px dashed #0000CC;
+	text-decoration: none;
+}
+
+body.h-centered {
+	margin: 0px auto 0px auto;
+	position: relative;
+}
+body.h-stretched {
+	margin: 0px;
+}
+body.v-stretched {
+	min-height: 100%;
+	position: relative;
+}
+
+div.hr {
+	font-size: 1px;
+	height: 1px;
+	margin: 10px 0px 10px 0px;
+	line-height: 1px;
+}
+
+input.text {
+}
+
+input.submit {
+}
+
+table.reset {
+	border: 0px;
+	border-collapse: collapse;
+}
+	table.reset td,
+	table.reset th {
+		padding: 0px;
+	}
+
+ul.news,
+ul.menu, ul.menu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+	ul.news li,
+	ul.menu li {
+		margin: 0px;
+		padding: 0px;
+	}
+	
+ul.tiles {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+	ul.tiles li {
+		margin: 0px;	
+	}
+
+ul.reset {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+	ul.reset {
+		margin: 0px;
+		padding: 0px;
+	}
+
+/* - Common classes */
+
